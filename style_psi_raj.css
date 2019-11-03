@@ -1,10 +1,10 @@
 body{
     background-color: rgb(244, 253, 222);
-    font-family: 'Chelsea Market', cursive;
+    font-family: 'Enriqueta', serif;
     text-align: justify;
 }
 /*Tekst*/
-h1{
+.title{
     font-size:  70px;
     color: #1A4F12;
     text-align: center;
@@ -13,36 +13,36 @@ h1{
     margin-bottom: 20px;
     letter-spacing: 1px;
 }
-h2{
+.subtitle{
     
-    font-family: 'Chelsea Market', cursive;
+    font-family: 'Enriqueta', serif;
     font-size: 35px;
     color: #1A4F12;
     text-align: center;
 }
-h3{
+.description{
     
     align-self: center;
 }
-h4{
+.ListHead{
     font-size: 35px;
     margin: 5px;
     text-align: center;
 }
-h5{
+.MoreInformation{
     font-size: 35px;
     margin: 5px;
     text-align: center;
     color: #1A4F12;
 }
-li{
+.ListContent{
     font-size: 25px;
 }
-p{
+.FirstText{
     font-size: 20px;
 }
 /*środkowa treść*/
-.container{
+main.container{
     padding: 3px;
     height: 100%;
     display: flex;
@@ -56,7 +56,7 @@ p{
     width: 500px;
     height: 400px;
     border-radius: 10px;
-    ]
+    
 }
 .container div.box1{
     width:90%;
@@ -72,6 +72,11 @@ p{
     background-color: #7DC173;
     text-align: center;
     margin: 10px;
+}
+div.SocialLinks{
+    display: flex;
+    justify-content: center;
+    height: 100px;
 }
 /*obrazki, zdjęcia*/
 img{
@@ -150,4 +155,8 @@ a:active
     0% {transform: rotate(0)}
     50% {transform: rotate(180deg);}
     100% {transform: rotate(360deg)}
+ }
+     
+ footer p a.githubLink {
+     color: black !important;
  }

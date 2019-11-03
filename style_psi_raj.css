@@ -29,21 +29,21 @@ body{
     
     align-self: center;
 }
-.ListHead{
+.list_head{
     font-size: 35px;
     margin: 5px;
     text-align: center;
 }
-.MoreInformation{
+.more_information{
     font-size: 35px;
     margin: 5px;
     text-align: center;
     color: #1A4F12;
 }
-.ListContent{
+.list_content{
     font-size: 25px;
 }
-.FirstText{
+.first_text{
     font-size: 20px;
 }
 .end {
@@ -90,7 +90,10 @@ main.container{
     text-align: center;
     margin: 10px;
 }
-div.SocialLinks{
+.container div.box9{
+    height: 210px;
+}
+div.social_links{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -135,29 +138,29 @@ img.media {
             animation: animacja 5s ease-in-out infinite;
 }
 /*linkowanie*/
-.githubLink
+.github_link
 {
     color: black;
 	text-decoration: none;
 }
-.githubLink:visited 
+.github_link:visited 
 {
     color: black;
 }
-.githubLink:hover 
+.github_link:hover 
 {
     color: #1A4F12;
 }
-.githubLink:active 
+.github_link:active 
 {    
 	color: black;
 }
 /*animacje*/
-.ShowInformation
+.show_information
 {
 	position: relative;
 }
-.ShowInformation .description
+.show_information .description
 {
 	position: absolute;
 	display: block;
@@ -182,7 +185,7 @@ img.media {
     text-align: center;
     
 }
-.ShowInformation:hover .description
+.show_information:hover .description
 {
     opacity: 0.8;
  }

@@ -1,5 +1,5 @@
 # Psi Raj
-## English
+## English version
 ## Who am I?
 I am second-year management student in Poland. Currently I'm taking part of CodersCamp class.
 ## Project
@@ -9,7 +9,7 @@ I used HTML, CSS and GoogleFonts.
 ## GitHub Page
 Please, check out my GitHub Page:
 https://kornelia-k.github.io/psi-raj-landing-page/
-## Polish
+## Polish version
 ## Kim jestem?
 Jestem obecnie studentką drugiego roku zarządzania, która bierze udział w CodersCamp czyli kursie programowania webowego.
 ## Co to za  projekt?

@@ -135,20 +135,20 @@ img.media {
             animation: animacja 5s ease-in-out infinite;
 }
 /*linkowanie*/
-.githubLink:link 
+.githubLink
 {
     color: black;
 	text-decoration: none;
 }
-.githubLink:link:visited 
+.githubLink:visited 
 {
     color: black;
 }
-.githubLink:link:hover 
+.githubLink:hover 
 {
     color: #1A4F12;
 }
-.githubLink:link:active 
+.githubLink:active 
 {    
 	color: black;
 }
